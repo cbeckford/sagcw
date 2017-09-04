@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "CASEWARE Assignments",
+  "short_name": "Assignments",
+  "description": "Assignemnt collaboration tool for CASEWARE",
+  "version": "0.0.1",
+  "minimum_chrome_version": "38",
+  "permissions": [
+    "contextMenus", 
+    "tabs"],
+  "icons": {
+    "16": "assets/search.png",
+    "16": "assets/add.png", 
+    "16": "assets/tool.png"
+  },
+  "background": {"page": "background.html"}
+}
